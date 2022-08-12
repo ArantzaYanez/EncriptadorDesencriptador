@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script  src="code.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="icon" href="img/Vector.png">
+
+	<title>Encriptador - Desencriptador</title>
+
+</head>
+
+<header>
+	<h1 id="titulo"> Encriptador & Desencriptador de Texto</h1>
+</header>
+
+
+<body>
+	<img src="img/RSA.png">
+	<h2><p>Ingrese el texto que desea encriptar o desencriptar</p></h2>
+	<h3>Solo minusculas, sin acentos</h3>
+	<input type="text" class="text-input" id="InputTexto" />
+	<br><br>
+	<br>
+	<button type="submit" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+	<button type="submit" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+	<br><br>
+	
+	
+
+	<textarea id="resultado" cols="30" rows="10"></textarea>
+    <br> <br>
+    <button onclick="copyToClipBoard()">Copiar Resultado</button>
+    <footer><h2> Realizado por Elizabeth Arantza Yañez Valdez</h2></footer>
+
+
+</body>
+</html>

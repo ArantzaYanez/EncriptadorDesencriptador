@@ -1,0 +1,75 @@
+#titulo{
+
+	text-align: center;
+	font-family: Perpetua;
+	text-shadow: 2px 2px #efff00;
+	
+}
+
+input {
+    
+    border-radius: 10px;
+    font-family: Perpetua;
+	font-size: 30px;
+	width: 700px;
+	
+
+ }
+ .caja{
+
+ 	width: 800px;
+ 	height: 200px;
+ }
+
+ button {
+ 	padding: 2px;
+ 	background-color: hsl(235deg 70% 88%);
+    width: 20%;
+    border-radius: 10px;
+
+ }
+
+img{
+
+    width: 500px;
+    text-align: center;
+}
+
+body{
+	text-align: center;
+	 background-color: rgb(209 202 236 / 33%);
+    font-family: optima;
+}
+
+textarea{
+
+    height: 80px;
+    width: 50;
+    border-radius: 10px;
+    font-family: Perpetua;
+    font-size: 50px;
+}
+
+footer{
+
+	font-family: optima;
+	width: 1500px;
+    height: 30px;
+	background-color: #d0b2e6;
+	animation-name: example;
+	animation-duration: 10s;
+	background-position: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
+@keyframes example {
+  0%   {background-color: #0072ff59;}
+  25%  {background-color: #93d5e0;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+
+h1{
+	font-size: 40px;
+}
